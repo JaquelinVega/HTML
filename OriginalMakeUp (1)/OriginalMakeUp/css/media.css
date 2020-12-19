@@ -1,0 +1,61 @@
+@media screen and (min-width: 300px){
+   nav{
+       display: none;
+   } 
+   #news{
+    margin-left: 0px;
+  }
+  
+   h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    footer > #contacto{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    nav{
+        display: block;
+    }
+    #news{
+        margin-left: 30px;
+      }
+      footer > #contacto{
+        display: block;
+        margin-left: 10px;
+    }
+}
+    
+@media screen and (min-width: 992px){
+    nav{
+        display: block;
+    }
+    #news{
+        margin-left: 60px;
+      }
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    #ofert > div{
+        width: 95%;
+    }
+    #ofert > div > #columna3 > #mitad > div > #precio{
+        font-size: 2rem;
+    }
+    footer > #contacto{
+        display: flex;
+    }
+
+}
